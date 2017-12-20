@@ -3,6 +3,7 @@ channels:
   - http://ssb.stsci.edu/astroconda
   - conda-forge
 dependencies:
+  - python==2.7
   - numpy
   - scipy
   - astropy
@@ -10,7 +11,7 @@ dependencies:
   - nbconvert>=5.0.0
   - sphinx>=1.5
   - ipython
+  - jupyter
   - pip:
     - sphinx_rtd_theme
     - stsci_rtd_theme
-
